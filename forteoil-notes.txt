@@ -1,0 +1,50 @@
+Pending tasks: 6
+Completed tasks: 21
+
+Income
+
+Create Income ?
+Update Income (by supervisor) ?
+Delete Income (by supervisor) ?
+Income history [logger(only supervisor), amount, description] ?
+
+Expenses
+
+Create Expenses ?
+Update Expenses (by supervisor) ?
+Delete Expenses (by supervisor) ?
+Expenses history [logger(only supervisor), amount, description] ?
+
+Cashier
+
+Can create Income ?
+Can view Income history ?
+Can create Expenses ?
+Can view expenses history ?
+Can make payment as requested of the supervisor
+Can see daily total (with concise summary of income & expenses)
+Can see monthly total on dashboard (with concise summary of monthly income & expenses)
+
+Supervisor
+
+Can create Income ?
+Can update Income ?
+Can delete Income ?
+Can create Expenses ?
+Can update Expenses ?
+Can delete Expenses ?
+Can make request for payment
+Can view expenses history ?
+Can see daily total (with concise summary of income & expenses)
+Can see monthly total on dashboard (with concise summary of monthly income & expenses)
+Can ask for yearly total (this won't be shown on the dashboard as the app gets slower over time due to accumulation of chunks of computation)
+
+
+Income table
+ user_id, amount, description, created_at, updated_at ?
+
+ Expenses table
+ user_id, amount, description, created_at, updated_at ?
+
+ users table
+ id, full name, email, password, role, created_at, updated_at ?
